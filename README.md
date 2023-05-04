@@ -17,7 +17,7 @@ class example(commands.Cog):
 
     @discord.app_commands.command(name='example', description='example command')
     async def ping(self, interaction:discord.Interaction):
-        await interaction.response.send_message('example respnose')
+        await interaction.response.send_message('example response')
 
 async def setup(client:commands.Bot):
     await client.add_cog(example(client))
