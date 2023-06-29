@@ -1,11 +1,7 @@
 # dpy-slashcommands-cog
-discord.pyのcogでスラッシュコマンドを動かす
+Using slash commands in discord.py cogs
 
-## 使用方法
-使い方は基本的に通常のcogと同じです  
-discord.ext.commands.Botはclientという変数名で書いているのでbotと間違えないように気を付けてください
-
-### サンプル
+# Example
 cogs/commands/example.py:
 ```python
 import discord
